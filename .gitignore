@@ -1,0 +1,52 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python and editor output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ROS 2 / colcon generated output
+build/
+install/
+log/
+*.log
+*.bag
+*.db3
+*.mcap
+
+# Private runtime data
+n8n_data/
+paper_data/
+*.db
+*.sqlite
+*.sqlite3
+digest.txt
+
+# Generated training runs (source datasets, models and demo video remain public)
+/runs/
+
+# Backups
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
+*.bak
+*.backup

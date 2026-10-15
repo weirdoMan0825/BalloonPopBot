@@ -1,0 +1,7 @@
+pink_balloon
+red_balloon
+green_balloon
+blue_balloon
+orange_balloon
+purple_balloon
+yellow_balloon
